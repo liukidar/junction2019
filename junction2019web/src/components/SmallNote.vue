@@ -61,7 +61,7 @@ export default {
   transition: .5s;
 }
 .fade-enter, .fade-leave-to {
-  transform: translateX(100%) scale(0);
+  transform: translateX(-20%) scale(0);
 }
 
 </style>
