@@ -1,5 +1,5 @@
 <template>
-	<div @click.stop="(e) => select({x: e.clientX, y: e.clientY, id: el.id })" class="cmp-square" :class="{outlier: el.status == 1, selected: isSelected.id == el.id }"
+	<div @click.stop class="cmp-square" :class="{outlier: el.status == 1, selected: isSelected.id == el.id }"
 			:style="{left: el.x / 74.08 + '%', top: el.y / 52.08 + '%'}"></div>
 </template>
 

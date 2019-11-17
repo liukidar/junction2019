@@ -20,16 +20,18 @@ export default {
 			closed: false,
 			style: {
 				0: { class: 'warning', title: 'ABANDONED LUGGAGE', action: 'Send Security', msg: 'br' },
-				1: { class: 'error', title: 'UNAUTHORIZED ACCESS', action: 'Send Security', msg: '' },
-				2: { class: 'warning', title: 'OVERCROWDING DETECTED', action: 'Open Extra Gate', msg: ''},
+				1: { class: 'error', title: 'UNAUTHORIZED ACCESS', action: 'Send Security', msg: 'ua' },
+				2: { class: 'warning', title: 'OVERCROWDING DETECTED', action: 'Open Extra Gate', msg: 'go'},
 				3: { class: 'info', title: 'LUGGAGE RECOVERED!', action: 'Noted!', msg: ''},
+				4: { class: 'info', title: 'NORMAL FLOW REESTABLISHED', action: 'Noted!', msg: ''},
+				5: { class: 'info', title: 'SECTOR IS CLEAR', action: 'Not clear!(?)', msg: ''},
 			}
 		}
 	},
 	methods: {
 		actionclick() {
 			this.$emit('action')
-			setTimeout(() => { this.$emit(this.style[this.type].msg) }, 10000)
+			setTimeout(() => { this.$emit(this.style[this.type].msg) }, Math.random() * 3000 + 4000)
 			setTimeout(() => this.closed = true)
 		}
 	}

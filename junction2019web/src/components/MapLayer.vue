@@ -71,15 +71,8 @@ export default {
 .cmp-map-layer.selected {
 	z-index: 1;
 	opacity: 1;
-	transform: scale(1.4) rotateX(-60deg) rotateY(0) rotateZ(-45deg) translateY(-50%) !important;
+	transform: scale(1.5) translateX(8%) rotateX(-60deg) rotateY(0) rotateZ(-45deg) translateY(-50%) !important;
 }
-.cmp-map-layer.selected.highlighted {
-	z-index: 1;
-	opacity: 1;
-	/* transform: scale(1.4) rotateX(0) rotateY(0) rotateZ(0) translateY(-10%) translateX(-20%) !important; */
-	transform: scale(1.5) rotateX(-60deg) rotateY(0) rotateZ(-45deg) translateY(-50%) !important;
-}
-
 .cmp-bkg {
 	width: 100%;
 	height: 100%;

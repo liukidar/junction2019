@@ -5,7 +5,7 @@
 			@click.native="selectLayer(index)"
 			@mouseenter.native="highlightLayer(index)"
 			@mouseleave.stop
-			:style="{left: (55) + '%'}"></map-layer>
+			:style="{left: (60) + '%'}"></map-layer>
 		<notification @close="select({})" @action="select({})" v-if="selected.id" :style="{left: selected.x + 40 + 'px', top: selected.y - 40 + 'px'}" class="cmp-selected-box"></notification>
 	</div>
 </template>
