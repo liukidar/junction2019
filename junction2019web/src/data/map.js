@@ -166,7 +166,7 @@ export const module = {
 		},
 		pickOutlierPerson(_ctx) {
 			_ctx.state.outlierPerson = _ctx.state.people[1][3]
-			_ctx.state.outlierPerson.id += '_'
+			_ctx.state.outlierPerson.id += 'x'
 			_ctx.state.outlierPerson.step = 0
 		},
 		clearOutlierPerson(_ctx) {

@@ -6,14 +6,14 @@
 			@mouseenter.native="highlightLayer(index)"
 			@mouseleave.stop
 			:style="{left: (60) + '%'}"></map-layer>
-		<notification @close="select({})" @action="select({})" v-if="selected.id" :style="{left: selected.x + 40 + 'px', top: selected.y - 40 + 'px'}" class="cmp-selected-box"></notification>
+		<small-note :title="selected.id" @close="select({})" @action="select({})" v-if="selected.id" :style="{left: selected.x + 40 + 'px', top: selected.y - 40 + 'px'}" class="cmp-selected-box"></small-note>
 	</div>
 </template>
 
 <script>
 
 import MapLayer from './MapLayer'
-import Notification from './Notification'
+import SmallNote from './SmallNote'
 import { mapGetters, mapActions } from 'vuex'
 
 export default {
@@ -56,7 +56,7 @@ export default {
 		this.update()
 	},
 	components: {
-		MapLayer, Notification
+		MapLayer, SmallNote
 	}
 }
 </script>

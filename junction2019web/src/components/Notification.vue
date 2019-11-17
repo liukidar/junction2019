@@ -24,7 +24,7 @@ export default {
 				2: { class: 'warning', title: 'OVERCROWDING DETECTED', action: 'Open Extra Gate', msg: 'go'},
 				3: { class: 'info', title: 'LUGGAGE RECOVERED!', action: 'Noted!', msg: ''},
 				4: { class: 'info', title: 'NORMAL FLOW REESTABLISHED', action: 'Noted!', msg: ''},
-				5: { class: 'info', title: 'SECTOR IS CLEAR', action: 'Not clear!(?)', msg: ''},
+				5: { class: 'info', title: 'SECTOR IS CLEAR', action: 'Not clear!(?)', msg: ''}
 			}
 		}
 	},
