@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B7EF3321931C4B836E90C1B743FA78 /* Pods-JunctionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 718431B45E80A2B24D135AADF1492B17 /* Pods-JunctionUITests-dummy.m */; };
+		09B0AECAA9FC788368F478F4B7F766BE /* Pulsator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2F02433346119CF5E21B5F92FD7883 /* Pulsator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E3292B0F0760F3FA3F81CDA74E3FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		28259E1CF4B558601228593E5DC4581E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		33E8DAC09ECB5E43F0E010FDA34D2EAA /* Pulsator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D840A6506B8B1F39486A47727EF27B06 /* Pulsator-dummy.m */; };
+		428728521E5EC9446185ACCFEB1ADA58 /* Pods-JunctionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6378F73B8995B327BA68968317537 /* Pods-JunctionTests-dummy.m */; };
+		43E2F88425D984532C5E162E9606077F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		443CA4D0496C1E9BECF4DA4FE128C370 /* Pods-Junction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 592E5937D4C81F076136753BF90AAB2E /* Pods-Junction-dummy.m */; };
+		510040F07CF6C8A622839FCD1CE126C3 /* LTHRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2098361E4EF341263605F4573460CB14 /* LTHRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662694B78D74834FEF61399C6F088814 /* Pods-Junction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F5070807C2CE485339BF2B2FF92BD6 /* Pods-Junction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2BA2B53494281CCD0A8595D2141E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		8093D43B28BCA177A0F0DDC9CEDF514E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		8D75E1244AF444493DA1AE00B30923BB /* LTHRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4062BEC5E90AA85541A5C6629E8D8DC /* LTHRadioButton.swift */; };
+		A6335E8424DB9FF57AD7D7AF67E80C4A /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8ED38455460C1FFF12B945F639131 /* Pulsator.swift */; };
+		D287EC0034422056ECA07E1BAE469EAB /* Pods-JunctionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DC69B76A3D5E21AE10D8885BF5F87F /* Pods-JunctionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E593C256412CA320F7BEB0055964E7C7 /* Pods-JunctionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B30CB73C15D606BB6DBDD472D84AF9 /* Pods-JunctionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6229EFFB5CF43D68861A7ACB38D70E5 /* LTHRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C910BEF4B20F76A976ABF6B6FF587E /* LTHRadioButton-dummy.m */; };
+		EC3B292B8DA26B4E2F9A021CED2FE71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		FA70439B0BE29162BDE64264059FA635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC11557E4BCFFFD85CB39B7DD6F3190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6589BA961B6D177A92436AC1859598;
+			remoteInfo = LTHRadioButton;
+		};
+		86A3774026AB139F7178A0D8D2F82C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFA6F6B92CC76803E75891EE1E66FFB;
+			remoteInfo = "Pods-Junction";
+		};
+		C5882A95F395F3F4CD1F36D28ED2409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BBA75F847DD6D3B2E202F6F0E9A01C;
+			remoteInfo = Pulsator;
+		};
+		DF5D1D25E561CBDB06290AE6CBF17429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFA6F6B92CC76803E75891EE1E66FFB;
+			remoteInfo = "Pods-Junction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D6378F73B8995B327BA68968317537 /* Pods-JunctionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JunctionTests-dummy.m"; sourceTree = "<group>"; };
+		2098361E4EF341263605F4573460CB14 /* LTHRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTHRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		20DA6AF36A6EE36573F32F793A654ECA /* Pods-Junction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Junction.debug.xcconfig"; sourceTree = "<group>"; };
+		252CF03C565DB2E9789D2D2475D3E440 /* Pods-JunctionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JunctionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29F02E3F152DF76E11A1A03FB2049425 /* Pods_JunctionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JunctionUITests.framework; path = "Pods-JunctionUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7CFC7A8B11966129CFA1F51C38FAAC /* LTHRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTHRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		346A91ADA34E5730DB8890C7D1A4FEDB /* Pods-JunctionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JunctionTests-Info.plist"; sourceTree = "<group>"; };
+		352787F809EA7DA8D1B6977D45BA42D2 /* Pods-JunctionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JunctionTests.modulemap"; sourceTree = "<group>"; };
+		3606402E174FDDFF990654BE31AB23E6 /* Pods-JunctionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JunctionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37D9B69024B53577F6E4C46407C0BD4A /* Pods-JunctionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunctionTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E40381142B8E40157AF3058064A447F /* Pods-JunctionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunctionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		426D64CA8F92E7C48EEF75C7E6572C77 /* LTHRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTHRadioButton.xcconfig; sourceTree = "<group>"; };
+		46DAE3558153D96592B50D2B42B55E02 /* LTHRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTHRadioButton.modulemap; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4F06FCC703E71A0805F4EE8AA27D1A15 /* Pods-Junction-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Junction-frameworks.sh"; sourceTree = "<group>"; };
+		55E337609E611D372A2BF0C3D62C27A2 /* Pods-Junction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Junction-acknowledgements.plist"; sourceTree = "<group>"; };
+		569D2430361468EA577FC18C93A99D0D /* Pulsator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsator.xcconfig; sourceTree = "<group>"; };
+		592E5937D4C81F076136753BF90AAB2E /* Pods-Junction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Junction-dummy.m"; sourceTree = "<group>"; };
+		5B9FA6121988971208D0548240B2B4E0 /* Pulsator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-prefix.pch"; sourceTree = "<group>"; };
+		607374CC1BA614B824C0077CCEE4D253 /* Pods-JunctionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JunctionUITests-Info.plist"; sourceTree = "<group>"; };
+		62523F2094A0E53F8E6BC93BDD004BAF /* Pods-JunctionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunctionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		687696AB0587D83D2887F5D9B6761505 /* Pods-Junction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Junction.release.xcconfig"; sourceTree = "<group>"; };
+		718431B45E80A2B24D135AADF1492B17 /* Pods-JunctionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JunctionUITests-dummy.m"; sourceTree = "<group>"; };
+		75D4763BA8E5D85509B6DE86E07BA889 /* Pods-Junction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Junction.modulemap"; sourceTree = "<group>"; };
+		7FDCB86B9D3C0D60A5FD89AA53E225C3 /* Pods-Junction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Junction-Info.plist"; sourceTree = "<group>"; };
+		85B30CB73C15D606BB6DBDD472D84AF9 /* Pods-JunctionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JunctionTests-umbrella.h"; sourceTree = "<group>"; };
+		8616FF49D6129D30F43B3E3C87988C3E /* Pods-JunctionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JunctionUITests.modulemap"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B2F02433346119CF5E21B5F92FD7883 /* Pulsator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsator-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DC69B76A3D5E21AE10D8885BF5F87F /* Pods-JunctionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JunctionUITests-umbrella.h"; sourceTree = "<group>"; };
+		A2F5070807C2CE485339BF2B2FF92BD6 /* Pods-Junction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Junction-umbrella.h"; sourceTree = "<group>"; };
+		A4062BEC5E90AA85541A5C6629E8D8DC /* LTHRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTHRadioButton.swift; path = source/LTHRadioButton.swift; sourceTree = "<group>"; };
+		A57B84B8985DFC6B3185FA4EFB9FA65F /* Pods_Junction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Junction.framework; path = "Pods-Junction.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF96F3CC9B1EA29648D88CBB71BFCDCC /* Pods-Junction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Junction-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B08C31A2EA91B8B9DB7BBE3DEA13DF74 /* LTHRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LTHRadioButton-Info.plist"; sourceTree = "<group>"; };
+		B3E958861190B84FCFAB09253705FC70 /* Pods-JunctionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JunctionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDC099F317DB64C6416108A3D1544E44 /* Pods-JunctionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JunctionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0F8ED38455460C1FFF12B945F639131 /* Pulsator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pulsator.swift; path = Pulsator/Pulsator.swift; sourceTree = "<group>"; };
+		C7C910BEF4B20F76A976ABF6B6FF587E /* LTHRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTHRadioButton-dummy.m"; sourceTree = "<group>"; };
+		C8B879E29F79DB85CA4C3A8281E9B219 /* Pods_JunctionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JunctionTests.framework; path = "Pods-JunctionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D22E645C16DA6D3BD98C30434FB033 /* Pods-JunctionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunctionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CCDF3C3611599C54D95C5F7D2CE4CB36 /* LTHRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTHRadioButton.framework; path = LTHRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47B7FF879523B91830C2D31C0247BDF /* Pulsator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pulsator-Info.plist"; sourceTree = "<group>"; };
+		D51FD108CE1772D874BABAC0047333A3 /* Pulsator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pulsator.modulemap; sourceTree = "<group>"; };
+		D840A6506B8B1F39486A47727EF27B06 /* Pulsator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsator-dummy.m"; sourceTree = "<group>"; };
+		FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulsator.framework; path = Pulsator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA4AB78A42128DC4A22E24563B170DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA70439B0BE29162BDE64264059FA635 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC9EB2FD8718A4BF275EB4A3F85300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3B292B8DA26B4E2F9A021CED2FE71C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599CA38DF6109E40B39734F311CCF49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E3292B0F0760F3FA3F81CDA74E3FA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D802FDC8D62A08F5EA3F76F9AE54B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28259E1CF4B558601228593E5DC4581E /* Foundation.framework in Frameworks */,
+				43E2F88425D984532C5E162E9606077F /* QuartzCore.framework in Frameworks */,
+				7A2BA2B53494281CCD0A8595D2141E5F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61FD3F8C5561DA4F33C0A1F5351A935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8093D43B28BCA177A0F0DDC9CEDF514E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B3F420A1211E86D6696A40B2E5CE60E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46DAE3558153D96592B50D2B42B55E02 /* LTHRadioButton.modulemap */,
+				426D64CA8F92E7C48EEF75C7E6572C77 /* LTHRadioButton.xcconfig */,
+				C7C910BEF4B20F76A976ABF6B6FF587E /* LTHRadioButton-dummy.m */,
+				B08C31A2EA91B8B9DB7BBE3DEA13DF74 /* LTHRadioButton-Info.plist */,
+				2E7CFC7A8B11966129CFA1F51C38FAAC /* LTHRadioButton-prefix.pch */,
+				2098361E4EF341263605F4573460CB14 /* LTHRadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTHRadioButton";
+			sourceTree = "<group>";
+		};
+		1EEF73C9647BED478E0004C70759CEB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F7193255CEE2A0268286E4CBDD159B /* Pods-Junction */,
+				EC980C3902C4014C34BFB45FDB856DE0 /* Pods-JunctionTests */,
+				50F47C6CE76EA262903867149C93A694 /* Pods-JunctionUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CC8DD38E30D469CB25A4D9BA2848233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A886294A4EB58946DB858D4D6250E7A /* LTHRadioButton */,
+				BBE679F1AD371D697C4AD827AECA7AF9 /* Pulsator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50F47C6CE76EA262903867149C93A694 /* Pods-JunctionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8616FF49D6129D30F43B3E3C87988C3E /* Pods-JunctionUITests.modulemap */,
+				BDC099F317DB64C6416108A3D1544E44 /* Pods-JunctionUITests-acknowledgements.markdown */,
+				3606402E174FDDFF990654BE31AB23E6 /* Pods-JunctionUITests-acknowledgements.plist */,
+				718431B45E80A2B24D135AADF1492B17 /* Pods-JunctionUITests-dummy.m */,
+				607374CC1BA614B824C0077CCEE4D253 /* Pods-JunctionUITests-Info.plist */,
+				A1DC69B76A3D5E21AE10D8885BF5F87F /* Pods-JunctionUITests-umbrella.h */,
+				C9D22E645C16DA6D3BD98C30434FB033 /* Pods-JunctionUITests.debug.xcconfig */,
+				3E40381142B8E40157AF3058064A447F /* Pods-JunctionUITests.release.xcconfig */,
+			);
+			name = "Pods-JunctionUITests";
+			path = "Target Support Files/Pods-JunctionUITests";
+			sourceTree = "<group>";
+		};
+		7A886294A4EB58946DB858D4D6250E7A /* LTHRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				A4062BEC5E90AA85541A5C6629E8D8DC /* LTHRadioButton.swift */,
+				1B3F420A1211E86D6696A40B2E5CE60E /* Support Files */,
+			);
+			name = LTHRadioButton;
+			path = LTHRadioButton;
+			sourceTree = "<group>";
+		};
+		919E71E849DEF85CBCD2472FA167A5F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D51FD108CE1772D874BABAC0047333A3 /* Pulsator.modulemap */,
+				569D2430361468EA577FC18C93A99D0D /* Pulsator.xcconfig */,
+				D840A6506B8B1F39486A47727EF27B06 /* Pulsator-dummy.m */,
+				D47B7FF879523B91830C2D31C0247BDF /* Pulsator-Info.plist */,
+				5B9FA6121988971208D0548240B2B4E0 /* Pulsator-prefix.pch */,
+				9B2F02433346119CF5E21B5F92FD7883 /* Pulsator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsator";
+			sourceTree = "<group>";
+		};
+		BBE679F1AD371D697C4AD827AECA7AF9 /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				C0F8ED38455460C1FFF12B945F639131 /* Pulsator.swift */,
+				919E71E849DEF85CBCD2472FA167A5F5 /* Support Files */,
+			);
+			name = Pulsator;
+			path = Pulsator;
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3F7193255CEE2A0268286E4CBDD159B /* Pods-Junction */ = {
+			isa = PBXGroup;
+			children = (
+				75D4763BA8E5D85509B6DE86E07BA889 /* Pods-Junction.modulemap */,
+				AF96F3CC9B1EA29648D88CBB71BFCDCC /* Pods-Junction-acknowledgements.markdown */,
+				55E337609E611D372A2BF0C3D62C27A2 /* Pods-Junction-acknowledgements.plist */,
+				592E5937D4C81F076136753BF90AAB2E /* Pods-Junction-dummy.m */,
+				4F06FCC703E71A0805F4EE8AA27D1A15 /* Pods-Junction-frameworks.sh */,
+				7FDCB86B9D3C0D60A5FD89AA53E225C3 /* Pods-Junction-Info.plist */,
+				A2F5070807C2CE485339BF2B2FF92BD6 /* Pods-Junction-umbrella.h */,
+				20DA6AF36A6EE36573F32F793A654ECA /* Pods-Junction.debug.xcconfig */,
+				687696AB0587D83D2887F5D9B6761505 /* Pods-Junction.release.xcconfig */,
+			);
+			name = "Pods-Junction";
+			path = "Target Support Files/Pods-Junction";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				3CC8DD38E30D469CB25A4D9BA2848233 /* Pods */,
+				DD7402362372695FEA846797725B0065 /* Products */,
+				1EEF73C9647BED478E0004C70759CEB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7402362372695FEA846797725B0065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF3C3611599C54D95C5F7D2CE4CB36 /* LTHRadioButton.framework */,
+				A57B84B8985DFC6B3185FA4EFB9FA65F /* Pods_Junction.framework */,
+				C8B879E29F79DB85CA4C3A8281E9B219 /* Pods_JunctionTests.framework */,
+				29F02E3F152DF76E11A1A03FB2049425 /* Pods_JunctionUITests.framework */,
+				FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC980C3902C4014C34BFB45FDB856DE0 /* Pods-JunctionTests */ = {
+			isa = PBXGroup;
+			children = (
+				352787F809EA7DA8D1B6977D45BA42D2 /* Pods-JunctionTests.modulemap */,
+				252CF03C565DB2E9789D2D2475D3E440 /* Pods-JunctionTests-acknowledgements.markdown */,
+				B3E958861190B84FCFAB09253705FC70 /* Pods-JunctionTests-acknowledgements.plist */,
+				04D6378F73B8995B327BA68968317537 /* Pods-JunctionTests-dummy.m */,
+				346A91ADA34E5730DB8890C7D1A4FEDB /* Pods-JunctionTests-Info.plist */,
+				85B30CB73C15D606BB6DBDD472D84AF9 /* Pods-JunctionTests-umbrella.h */,
+				62523F2094A0E53F8E6BC93BDD004BAF /* Pods-JunctionTests.debug.xcconfig */,
+				37D9B69024B53577F6E4C46407C0BD4A /* Pods-JunctionTests.release.xcconfig */,
+			);
+			name = "Pods-JunctionTests";
+			path = "Target Support Files/Pods-JunctionTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DE1EA20230D0378E14F1DA6797173B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287EC0034422056ECA07E1BAE469EAB /* Pods-JunctionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C87A6C2E7E083AE8D6634C04D782B5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E593C256412CA320F7BEB0055964E7C7 /* Pods-JunctionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F34D569687FB3F477F1081E09FE8D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510040F07CF6C8A622839FCD1CE126C3 /* LTHRadioButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB83D3E9A75A93F0AF35B45A1CCF62D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662694B78D74834FEF61399C6F088814 /* Pods-Junction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D2843A3D12039EF0316590F137E8A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B0AECAA9FC788368F478F4B7F766BE /* Pulsator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E1FE9FCD92D530B027FDCEAE084DB8C /* Pods-JunctionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2DB1799FF94734A125FC681AE2528E /* Build configuration list for PBXNativeTarget "Pods-JunctionUITests" */;
+			buildPhases = (
+				0DE1EA20230D0378E14F1DA6797173B9 /* Headers */,
+				3A7C1ABF2234F6E8BDC5F401102C254C /* Sources */,
+				599CA38DF6109E40B39734F311CCF49A /* Frameworks */,
+				0D849973F0A57F28EA71EEA0DCC2E09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB08099D15F5DD0921D4D0898E57930 /* PBXTargetDependency */,
+			);
+			name = "Pods-JunctionUITests";
+			productName = "Pods-JunctionUITests";
+			productReference = 29F02E3F152DF76E11A1A03FB2049425 /* Pods_JunctionUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3B03A19EBC346849A1B1B9C570ECD69 /* Pods-JunctionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E728AD8169BF7CF135756169646CFC8 /* Build configuration list for PBXNativeTarget "Pods-JunctionTests" */;
+			buildPhases = (
+				8C87A6C2E7E083AE8D6634C04D782B5B /* Headers */,
+				3201CDFD0A0F25F113EDFB034594065C /* Sources */,
+				3EC9EB2FD8718A4BF275EB4A3F85300F /* Frameworks */,
+				3FCE115A5C01358DEE71835B5B42D660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD23903C6EF819E456D4FE0BB4706F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-JunctionTests";
+			productName = "Pods-JunctionTests";
+			productReference = C8B879E29F79DB85CA4C3A8281E9B219 /* Pods_JunctionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEFA6F6B92CC76803E75891EE1E66FFB /* Pods-Junction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16375AC40D24433D5345DB11DF40B91 /* Build configuration list for PBXNativeTarget "Pods-Junction" */;
+			buildPhases = (
+				DB83D3E9A75A93F0AF35B45A1CCF62D6 /* Headers */,
+				594AA5CF97A6C0F26FD6875B49B670A8 /* Sources */,
+				1FA4AB78A42128DC4A22E24563B170DC /* Frameworks */,
+				69C8AAA756486BFD314643AE3E2118A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63679B0EA708912A2495F76F213FFDFF /* PBXTargetDependency */,
+				AAA3DE6BD6DADEEE805F85ADE9120303 /* PBXTargetDependency */,
+			);
+			name = "Pods-Junction";
+			productName = "Pods-Junction";
+			productReference = A57B84B8985DFC6B3185FA4EFB9FA65F /* Pods_Junction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EB62CEA9D91B690EBF5ACCDC14D234 /* Build configuration list for PBXNativeTarget "Pulsator" */;
+			buildPhases = (
+				E3D2843A3D12039EF0316590F137E8A9 /* Headers */,
+				AE8A04CC7926156F581691308611A97C /* Sources */,
+				87D802FDC8D62A08F5EA3F76F9AE54B7 /* Frameworks */,
+				9FE26D3EFD50B2B93EE129836A831444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsator;
+			productName = Pulsator;
+			productReference = FF0CD94CB8F5CD73FEE61C7562214EE5 /* Pulsator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB6589BA961B6D177A92436AC1859598 /* LTHRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17789A6D221ACAE6D2FF29090A545FE4 /* Build configuration list for PBXNativeTarget "LTHRadioButton" */;
+			buildPhases = (
+				A4F34D569687FB3F477F1081E09FE8D5 /* Headers */,
+				4B1989A0EC27294867E04A622433AE43 /* Sources */,
+				F61FD3F8C5561DA4F33C0A1F5351A935 /* Frameworks */,
+				5D8924035B666650F9F9EF8FA9A70A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTHRadioButton;
+			productName = LTHRadioButton;
+			productReference = CCDF3C3611599C54D95C5F7D2CE4CB36 /* LTHRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD7402362372695FEA846797725B0065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6589BA961B6D177A92436AC1859598 /* LTHRadioButton */,
+				DEFA6F6B92CC76803E75891EE1E66FFB /* Pods-Junction */,
+				B3B03A19EBC346849A1B1B9C570ECD69 /* Pods-JunctionTests */,
+				3E1FE9FCD92D530B027FDCEAE084DB8C /* Pods-JunctionUITests */,
+				E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D849973F0A57F28EA71EEA0DCC2E09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCE115A5C01358DEE71835B5B42D660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8924035B666650F9F9EF8FA9A70A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C8AAA756486BFD314643AE3E2118A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE26D3EFD50B2B93EE129836A831444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3201CDFD0A0F25F113EDFB034594065C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428728521E5EC9446185ACCFEB1ADA58 /* Pods-JunctionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7C1ABF2234F6E8BDC5F401102C254C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B7EF3321931C4B836E90C1B743FA78 /* Pods-JunctionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1989A0EC27294867E04A622433AE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6229EFFB5CF43D68861A7ACB38D70E5 /* LTHRadioButton-dummy.m in Sources */,
+				8D75E1244AF444493DA1AE00B30923BB /* LTHRadioButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594AA5CF97A6C0F26FD6875B49B670A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443CA4D0496C1E9BECF4DA4FE128C370 /* Pods-Junction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8A04CC7926156F581691308611A97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E8DAC09ECB5E43F0E010FDA34D2EAA /* Pulsator-dummy.m in Sources */,
+				A6335E8424DB9FF57AD7D7AF67E80C4A /* Pulsator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63679B0EA708912A2495F76F213FFDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTHRadioButton;
+			target = FB6589BA961B6D177A92436AC1859598 /* LTHRadioButton */;
+			targetProxy = 1CC11557E4BCFFFD85CB39B7DD6F3190 /* PBXContainerItemProxy */;
+		};
+		7DB08099D15F5DD0921D4D0898E57930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Junction";
+			target = DEFA6F6B92CC76803E75891EE1E66FFB /* Pods-Junction */;
+			targetProxy = 86A3774026AB139F7178A0D8D2F82C78 /* PBXContainerItemProxy */;
+		};
+		AAA3DE6BD6DADEEE805F85ADE9120303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulsator;
+			target = E5BBA75F847DD6D3B2E202F6F0E9A01C /* Pulsator */;
+			targetProxy = C5882A95F395F3F4CD1F36D28ED2409E /* PBXContainerItemProxy */;
+		};
+		FFD23903C6EF819E456D4FE0BB4706F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Junction";
+			target = DEFA6F6B92CC76803E75891EE1E66FFB /* Pods-Junction */;
+			targetProxy = DF5D1D25E561CBDB06290AE6CBF17429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B26B7F6A6D222E521490281F84520EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426D64CA8F92E7C48EEF75C7E6572C77 /* LTHRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTHRadioButton/LTHRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTHRadioButton/LTHRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTHRadioButton/LTHRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = LTHRadioButton;
+				PRODUCT_NAME = LTHRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E23BBC35E1BB97AA46104D63C874AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D9B69024B53577F6E4C46407C0BD4A /* Pods-JunctionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JunctionTests/Pods-JunctionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JunctionTests/Pods-JunctionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6165872CCC29757F534CA7576BDB3417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62523F2094A0E53F8E6BC93BDD004BAF /* Pods-JunctionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JunctionTests/Pods-JunctionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JunctionTests/Pods-JunctionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0D2C094776702EC36814031680D1FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426D64CA8F92E7C48EEF75C7E6572C77 /* LTHRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTHRadioButton/LTHRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTHRadioButton/LTHRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTHRadioButton/LTHRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = LTHRadioButton;
+				PRODUCT_NAME = LTHRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9277F8793B10E54F0B8EE79A2DC0AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687696AB0587D83D2887F5D9B6761505 /* Pods-Junction.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Junction/Pods-Junction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Junction/Pods-Junction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9C64D5021A759FAA4844C0C0DA5E66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DA6AF36A6EE36573F32F793A654ECA /* Pods-Junction.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Junction/Pods-Junction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Junction/Pods-Junction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1C1ED0EC268FCB71438EA5CBED4E511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D22E645C16DA6D3BD98C30434FB033 /* Pods-JunctionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JunctionUITests/Pods-JunctionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JunctionUITests/Pods-JunctionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8E5418FE7DB711AC95536F061FE9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569D2430361468EA577FC18C93A99D0D /* Pulsator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsator/Pulsator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pulsator/Pulsator.modulemap";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6B7A29E8CCBF28C2D82B690D47DE2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569D2430361468EA577FC18C93A99D0D /* Pulsator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsator/Pulsator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsator/Pulsator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pulsator/Pulsator.modulemap";
+				PRODUCT_MODULE_NAME = Pulsator;
+				PRODUCT_NAME = Pulsator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7A36737B91AC2F260F063F14F2D0EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E40381142B8E40157AF3058064A447F /* Pods-JunctionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JunctionUITests/Pods-JunctionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JunctionUITests/Pods-JunctionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EB62CEA9D91B690EBF5ACCDC14D234 /* Build configuration list for PBXNativeTarget "Pulsator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8E5418FE7DB711AC95536F061FE9D7 /* Debug */,
+				E6B7A29E8CCBF28C2D82B690D47DE2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17789A6D221ACAE6D2FF29090A545FE4 /* Build configuration list for PBXNativeTarget "LTHRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2C094776702EC36814031680D1FAB /* Debug */,
+				0B26B7F6A6D222E521490281F84520EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2DB1799FF94734A125FC681AE2528E /* Build configuration list for PBXNativeTarget "Pods-JunctionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C1ED0EC268FCB71438EA5CBED4E511 /* Debug */,
+				F7A36737B91AC2F260F063F14F2D0EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E728AD8169BF7CF135756169646CFC8 /* Build configuration list for PBXNativeTarget "Pods-JunctionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6165872CCC29757F534CA7576BDB3417 /* Debug */,
+				5E23BBC35E1BB97AA46104D63C874AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16375AC40D24433D5345DB11DF40B91 /* Build configuration list for PBXNativeTarget "Pods-Junction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C64D5021A759FAA4844C0C0DA5E66C /* Debug */,
+				A9277F8793B10E54F0B8EE79A2DC0AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_JunctionUITests {
+  umbrella header "Pods-JunctionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
